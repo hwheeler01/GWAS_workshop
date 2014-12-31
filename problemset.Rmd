@@ -22,12 +22,12 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 
 #Problem Set
 
-All required data files are located in the GWAS_workshop.zip folder available at <github>
+All required data files are located in the GWAS_workshop.zip folder available at <https://github.com/hwheeler01/GWAS_workshop/blob/master/GWAS_workshop.zip>
 
-CB1908 is a new chemotherapeutic agent developed by CubbyBear PharmaCorp.  Perform a GWAS on the IC~50~ of CB1908-treated lymphoblastoid cell lines from the same Yoruba population used in the GWAS workshop (`genotype.*` files).  The phenotypes are located in `CB1908_IC50.txt` Answer the following questions about your analysis and embed relevant code and plots:
+CB1908 is a new chemotherapeutic agent developed by CubbyBear PharmaCorp.  Perform a GWAS on the IC<sub>50</sub> of CB1908-treated lymphoblastoid cell lines from the same Yoruba population used in the GWAS workshop (`genotype.*` files).  The phenotypes are located in `CB1908_IC50.txt` Answer the following questions about your analysis and embed relevant code and plots:
 
 
-###1)  Is the CB1908 IC~50~ phenotype normally distributed?  Did you adjust the phenotype prior to running your analysis?
+###1)  Is the CB1908 IC<sub>50</sub> phenotype normally distributed?  Did you adjust the phenotype prior to running your analysis?
 
 
 ###2)	Show the plink command you used to run your GWAS below and explain what each option within the command does.
