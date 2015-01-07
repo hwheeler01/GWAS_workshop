@@ -1,9 +1,9 @@
 ---
 title: "GWAS Problem Set"
-date: "December 31, 2014"
 output: html_document
 ---
 ###R Markdown Tips
+
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
 When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
@@ -14,35 +14,35 @@ summary(cars)
 
 You can also embed plots, for example:
 
-```{r, echo=FALSE}
+```{r, fig.width=4, fig.height=4, echo=FALSE}
 plot(cars)
 ```
 
 Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
-#Problem Set
+###Problem Set
 
 All required data files are located in the GWAS_workshop.zip folder available at <https://github.com/hwheeler01/GWAS_workshop/blob/master/GWAS_workshop.zip>
 
-CB1908 is a new chemotherapeutic agent developed by CubbyBear PharmaCorp.  Perform a GWAS on the IC<sub>50</sub> of CB1908-treated lymphoblastoid cell lines from the same Yoruba population used in the GWAS workshop (`genotype.*` files).  The phenotypes are located in `CB1908_IC50.txt` Answer the following questions about your analysis and embed relevant code and plots:
+CB1908 is a new chemotherapeutic agent developed by CubbyBear PharmaCorp.  Perform a GWAS on the IC<sub>50</sub> of CB1908-treated lymphoblastoid cell lines from the same Yoruba population used in the GWAS workshop (`genotype.*` files).  The phenotypes are located in `CB1908_IC50.txt` Answer the following questions about your analysis and embed relevant code and plots using R Markdown:
 
 
-###1)  Is the CB1908 IC<sub>50</sub> phenotype normally distributed?  Did you adjust the phenotype prior to running your analysis?
+1.  Is the CB1908 IC<sub>50</sub> phenotype normally distributed?  Did you adjust the phenotype prior to running your analysis?
 
 
-###2)	Show the plink command you used to run your GWAS below and explain what each option within the command does.
+2.	Show the plink command you used to run your GWAS below and explain what each option within the command does.
 
 
-###3)	Make a Q-Q plot and a Manhattan plot of your results.  Embed the plots into this document and write a figure legend that explains each plot.
+3.	Make a Q-Q plot and a Manhattan plot of your results.  Embed the plots into this document and write a figure legend that explains each plot.
 
-###4)	What does the Q-Q plot tell you about your data?  What potential confounders in your data should you analyze further? (Note: It is not necessary to actually perform the confounder analyses, just explain what you should further investigate.)
+4.	What does the Q-Q plot tell you about your data?  What potential confounders in your data should you analyze further? (Note: It is not necessary to actually perform the confounder analyses, just explain what you should further investigate.)
 
-###5)	Do you have any genome-wide significant hits?  How did you correct for multiple hypothesis testing?  
+5.	Do you have any genome-wide significant hits?  How did you correct for multiple hypothesis testing?  
 
-###6)	Is there any functional information known about your top SNPs?  Are they located in or near a gene?  How might these loci be functioning in response to CB1908?  Please use screen captures of appropriate databases or LocusZoom to highlight interesting loci.
+6.	Is there any functional information known about your top SNPs?  Are they located in or near a gene?  How might these loci be functioning in response to CB1908?  Please use screen captures of appropriate databases or LocusZoom to highlight interesting loci.
 
-###7)	Make a plot and figure legend of your top hit’s genotype vs. phenotype.  Is the minor allele associated with resistance or sensitivity to Drug X?
+7.	Make a plot and figure legend of your top hit’s genotype vs. phenotype.  Is the minor allele associated with resistance or sensitivity to Drug X?
 
-###8)	What analyses and experiments would you do next to follow-up on your findings?
+8.	What analyses and experiments would you do next to follow-up on your findings?
 
 
