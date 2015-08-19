@@ -11,7 +11,8 @@ output: html_document
 - Goal 1: to use discovered genetic risk factors to make predictions about who is at risk for a disease or treatment toxicity
 - Goal 2: to identify biological mechanisms of disease susceptibility for development of new prevention and treatment strategies
 
-# ADD LD info
+# Linkage Disequilibrium (LD)
+![](figs/LD.jpg)
 
 # GWAS usually discovers common variants with small effect sizes
 ![](figs/ORvMAF.png)
@@ -24,10 +25,10 @@ output: html_document
 - how to use R to visualize GWAS results
 
 # Topics **NOT** covered in today's workshop, but extremely important
-## Perl/Python scripting
+### Perl/Python scripting
 - Often used to convert data to plink format
 
-## GWAS Quality Control
+### GWAS Quality Control
 - Per SNP call rates
 - Per individual call rates
 - Gender check
@@ -39,11 +40,11 @@ output: html_document
 - Flagging/Filtering of SNPs and individuals
 
 # Installing R and RStudio
-## Install R
+### Install R
 - Available for Linux/Mac/Windows from CRAN, the Comprehensive R Archive Network
 - Download: <http://cran.rstudio.com/>
 
-## Install RStudio
+### Install RStudio
 - RStudio is an integrated development environment, a powerful user interface for R
 - Download the Open Source RStudio Desktop: <http://www.rstudio.com/products/rstudio/>
 
@@ -65,14 +66,14 @@ output: html_document
 - Unzip the downloaded file.  Move the file called **plink** or **plink.exe** to your **GWAS_workshop** folder on your Desktop
 
 # Test PLINK
-## Using Mac OS X:
+### Using Mac OS X:
 Open a Terminal window (If you have not used Terminal before, search for Terminal in a Finder window and double click to open). Type the following commands:
 ```{r,eval=FALSE}
   cd Desktop/GWAS_workshop/ 
   ./plink
 ```
 
-## Using Windows:
+### Using Windows:
 Open a DOS windows by selecting "Command Prompt" from the start menu, or searching for "command" or "cmd" in the "Run..." option of the start menu. Type the following commands:
 ```{r,eval=FALSE}
   cd Desktop\GWAS_workshop
